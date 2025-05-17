@@ -13,7 +13,6 @@ type ChuckMessage struct {
 	Value string `json:"value"`
 }
 
-
 func getColorMsg(message string) {
 	r, g, b := 255, 215, 0 // gold color
 	fmt.Printf("\033[38;2;%d;%d;%dm%s\033[0m\n", r, g, b, message)
