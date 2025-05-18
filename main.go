@@ -38,7 +38,7 @@ func doRequest(url string, command string) {
 	}
 }
 
-func getURL(command string) string{
+func getURL(command string) string {
 	var url string = ""
 
 	switch command {
