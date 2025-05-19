@@ -79,6 +79,7 @@ func main() {
 
 	url := getURL(command)
 	if url != "" {
+		printColorMsg("Chuck is thinking...")
 		doRequest(url, command)
 	}
 }
