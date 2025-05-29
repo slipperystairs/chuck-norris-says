@@ -8,7 +8,7 @@ To install Go visit: https://go.dev/doc/install
 ## Cloning/Building/Executing the CLI
 ```
 git clone git@github.com:slipperystairs/chuck-norris-says.git
-cd chuck-norris-app
+cd chuck-norris-says
 
 go build -o chuck-norris-says main.go
 ./chuck-norris-says
